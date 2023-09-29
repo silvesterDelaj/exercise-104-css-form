@@ -3,16 +3,110 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+}
+
 
 #header{
-height: 200px;
 background-image: url(./header.jpg);
     background-size: cover;
     background-position: center;
+    padding: 35px 30px;
+    border-bottom: 4px solid black;
 }
 
 #title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background: hsla(33, 52%, 71%, 0.272)
+    background: hsla(42, 63%, 97%, 0.5);
+    padding: 10px;
+    border-radius: 10px;
 }
+
+#form-container{
+    background-color: #F5F3E7;
+    text-align: center;
+    padding: 20px;
+}
+
+#form-top{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.red-star{
+    color: red;
+    font-size: 1.2rem;
+}
+
+#small-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8rem;
+}
+
+#form-style{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .9rem;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: left;
+    padding: 20px 20px;   
+}
+
+.input-text{
+    margin-bottom: 20px;
+    background-color:#FFEFC3;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid grey
+}
+
+select{
+    margin-bottom: 20px;
+    background-color:#FFEFC3;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid grey
+}
+
+option{
+    background-color: #AEAFB3;
+}
+
+textarea{
+    margin-bottom: 20px;
+    background-color:#FFEFC3;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey
+}
+
+textarea{
+    margin-top: 20px;
+    resize: none;
+}
+
+.blue-text{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+button{
+    background-color: #FEDB77;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
