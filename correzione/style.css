@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 50px 25px;
+    background-image: url(../header.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, .5);
+    padding: .5em 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+main{
+    background-color: #F5F3E7;
+    padding: 1px 1px 40px; //to skip border-collpase
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.star{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+
+form{
+    background-color: white;
+    border: 1px solid #AEAFB3;
+    border-radius: 10px;
+    margin: 0 25%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.form-element{
+    background-color: #FFEFC3;
+    border: 1px solid #AEAFB3;
+    border-radius: 2.5px;
+    padding: .5em .75em;
+    width: 100%;
+}
+
+.form-element-container{
+    margin: .5rem 0;
+}
+
+p{
+    font-weight: bold;
+}
+
+select{
+    font-weight: bold;
+}
+
+option{
+    background-color: #AEAFB3;
+}
+
+textarea{
+    resize: none;
+}
+
+.align-middle{
+    vertical-align: middle;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+#female-label{
+    margin-left: 1rem;
+}
+
+button{
+    background-color: #FEDB77;
+    border: 1px solid #AEAFB3;
+    border-radius: 2.5px;
+    padding: .5em .75em;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
